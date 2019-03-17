@@ -35,9 +35,9 @@ public class Main {
                             System.out.println("Wpisz rocznik");
                             int getRocznik = input2.nextInt();
                     Samochod car = new Samochod();
-                    car.setCena(getCena);
                     car.setKolor(getKolor);
                     car.setMarka(getMarka);
+                    car.setCena(getCena);
                     car.setPrzebieg(getPrzebieg);
                     car.setRocznik(getRocznik);
                     break;
