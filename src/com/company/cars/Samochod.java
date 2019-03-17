@@ -1,5 +1,7 @@
 package com.company.cars;
 
+import java.util.List;
+
 public class Samochod {
 
     private String kolor;
@@ -12,13 +14,6 @@ public class Samochod {
 
     private int rocznik;
 
-    public Samochod(String kolor, String marka, long cena, long przebieg, int rocznik) {
-        this.kolor = kolor;
-        this.marka = marka;
-        this.cena = cena;
-        this.przebieg = przebieg;
-        this.rocznik = rocznik;
-    }
 
     public String getKolor() {
         return kolor;
@@ -59,6 +54,17 @@ public class Samochod {
     public void setRocznik(int rocznik) {
         this.rocznik = rocznik;
     }
+
+    public Samochod(String kolor, String marka, long cena, long przebieg, int rocznik) {
+        this.kolor = kolor;
+        this.marka = marka;
+        this.cena = cena;
+        this.przebieg = przebieg;
+        this.rocznik = rocznik;
+
+
+    }
+
 
 
 
